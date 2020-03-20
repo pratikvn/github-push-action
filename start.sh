@@ -22,7 +22,9 @@ if ${TAGS}; then
     _TAGS='--tags'
 fi
 
+
 cd ${INPUT_DIRECTORY}
+pwd
 
 remote_repo="https://${GITHUB_ACTOR}:${INPUT_GITHUB_TOKEN}@github.com/${REPOSITORY}.git"
 
